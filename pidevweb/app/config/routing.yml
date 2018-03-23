@@ -1,9 +1,0 @@
-base:
-    resource: "@baseBundle/Resources/config/routing.yml"
-    prefix:   /base
-
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
-fos_user:
-    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
